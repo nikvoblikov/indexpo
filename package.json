@@ -1,0 +1,33 @@
+{
+  "name": "indexpo",
+  "version": "1.0.0",
+  "description": "CLI to change default export in all index.js files in your project",
+  "main": "index.js",
+  "bin": {
+    "indexpo": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "npx eslint *.js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikvoblikov/indexpo.git"
+  },
+  "author": "Nikita Voblikov <nikvoblikov@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/nikvoblikov/indexpo#readme"
+}
