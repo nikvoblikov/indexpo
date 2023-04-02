@@ -1,6 +1,6 @@
 {
   "name": "indexpo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to change default export in all index.js files in your project",
   "main": "index.js",
   "bin": {
