@@ -1,4 +1,4 @@
-# Indexpie - change default export in all index.js files in your project just in second
+# Indexpo - change default export in all index.js files in your project just in second
 ![npm](https://img.shields.io/npm/v/indexpo) ![npm](https://img.shields.io/npm/dm/indexpo)
 
 ## Features
